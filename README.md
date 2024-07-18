@@ -65,7 +65,7 @@ pip install -r requirements.txt
 
 Technologies used in the project:
 
-*   Flask
+*   HTML
 *   CSS
 *   Javascript
-*   HTML
+*   Flask
