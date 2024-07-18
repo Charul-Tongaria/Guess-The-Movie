@@ -1,0 +1,22 @@
+[
+    {"title": "The Matrix", "dialogue": "There is no spoon.", "image": "matrix.jpg"},
+    {"title": "Titanic", "dialogue": "I'm the king of the world!", "image": "titanic.jpg"},
+    {"title": "Inception", "dialogue": "You mustn't be afraid to dream a little bigger, darling.", "image": "inception.jpg"},
+    {"title": "Forrest Gump", "dialogue": "Life is like a box of chocolates.", "image": "forrest_gump.jpg"},
+    {"title": "The Godfather", "dialogue": "I'm gonna make him an offer he can't refuse.", "image": "godfather.jpg"},
+    {"title": "Pulp Fiction", "dialogue": "Say 'what' again!", "image": "pulp_fiction.jpg"},
+    {"title": "The Shawshank Redemption", "dialogue": "Hope is a good thing, maybe the best of things.", "image": "shawshank.jpg"},
+    {"title": "Star Wars", "dialogue": "May the Force be with you.", "image": "star_wars.jpg"},
+    {"title": "The Lion King", "dialogue": "Hakuna Matata.", "image": "lion_king.jpg"},
+    {"title": "Jurassic Park", "dialogue": "Life finds a way.", "image": "jurassic_park.jpg"},
+    {"title": "Fight Club", "dialogue": "The first rule of Fight Club is: You do not talk about Fight Club.", "image": "fight_club.jpg"},
+    {"title": "The Terminator", "dialogue": "I'll be back.", "image": "terminator.jpg"},
+    {"title": "Braveheart", "dialogue": "They may take our lives, but they'll never take our freedom!", "image": "braveheart.jpg"},
+    {"title": "Harry Potter and the Sorcerer's Stone", "dialogue": "You're a wizard, Harry.", "image": "harry_potter.jpg"},
+    {"title": "Toy Story", "dialogue": "To infinity and beyond!", "image": "toy_story.jpg"},
+    {"title": "The Lord of the Rings: The Fellowship of the Ring", "dialogue": "One ring to rule them all.", "image": "lotr_fellowship.jpg"},
+    {"title": "Spider-Man", "dialogue": "With great power comes great responsibility.", "image": "spiderman.jpg"},
+    {"title": "Iron Man", "dialogue": "I am Iron Man.", "image": "iron_man.jpg"},
+    {"title": "Avatar", "dialogue": "I see you.", "image": "avatar.jpg"},
+    {"title": "The Avengers", "dialogue": "We have a Hulk.", "image": "avengers.jpg"}
+]

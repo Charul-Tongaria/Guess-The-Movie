@@ -1,0 +1,109 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, #e0f7fa 0%, #80deea 100%);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #00796b;
+}
+
+img {
+    max-width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 80%;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #00796b;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #004d40;
+}
+
+.feedback {
+    font-size: 1.2em;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+    display: none;
+}
+
+.feedback.visible {
+    display: block;
+}
+
+.congratulations {
+    color: #388e3c;
+}
+
+.almost_near {
+    color: #ff7043;
+}
+
+.wrong_answer {
+    color: #d32f2f;
+}
+
+#timer {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+.final-score {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.final-message {
+    font-size: 1.3em;
+    margin-top: 20px;
+}
+
+.low-score {
+    color: #d32f2f;
+    font-weight: bold;
+}
+
+.medium-score {
+    color: #ff7043;
+    font-weight: bold;
+}
+
+.high-score {
+    color: #388e3c;
+    font-weight: bold;
+}

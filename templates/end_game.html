@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game Over</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+</head>
+<body>
+    <div class="container end-game">
+        <h1>Game Over</h1>
+        <p>Thank you for playing, {{ session['username'] }}!</p>
+        <p class="final-score">Your final score is: {{ score }}</p>
+        <p class="final-message">{{ message }}</p>
+        <form action="{{ url_for('play_again') }}" method="post">
+            <button type="submit">Play Again</button>
+        </form>
+    </div>
+</body>
+</html>

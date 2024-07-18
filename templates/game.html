@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Guess the Movie</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+</head>
+<body>
+    <div class="container game">
+        <h1>Guess the Movie</h1>
+        <img src="{{ url_for('static', filename='images/' + movie['image']) }}" alt="Movie Image">
+        <p>{{ movie['dialogue'] }}</p>
+        <form action="{{ url_for('submit_guess') }}" method="post">
+            <input type="text" name="guess" placeholder="Your guess" required>
+            <button type="submit">Submit Guess</button>
+        </form>
+        {% if feedback %}
+            <p id="feedback" class="feedback {{ feedback }}">{{ feedback.replace('_', ' ').capitalize() }}</p>
+        {% endif %}
+        <div id="timer"></div>
+    </div>
+</body>
+</html>
